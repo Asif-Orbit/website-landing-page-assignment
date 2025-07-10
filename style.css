@@ -25,6 +25,7 @@
     color: #FFFFFF;
     background-color: #4E47FF;
     border: none;
+    cursor: pointer;
 }
 
 .primary-btn:hover {
@@ -33,7 +34,6 @@
 }
 
 .text-center {
-    align-items: center;
     text-align: center;
 }
 
@@ -76,8 +76,8 @@ header nav ul {
 }
 
 .header nav ul li a:hover {
-    background-color: #00f7ff;
-    color: black;
+    background-color: #000000;
+    color: white;
 }
 
 .logo {
@@ -255,3 +255,51 @@ main {
     border-radius: 48px;
     margin-top: 20px;
 }
+
+/* get in touch section style */
+.get-touch-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+.get-touch-text{
+    font-size: 100px;
+    font-weight: bold;
+    color: #000000;
+    /* width: 530px; */
+    
+}
+
+.label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 10px;
+    display: block;
+
+}
+.input{
+    font-size: 20px;
+    color: rgba(0, 0, 0,0.5);
+    padding: 20px 270px 20px 30px;
+    margin-bottom: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    display: block;
+
+}
+.get-in-touch-btn{
+    padding: 20px 243px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.get-in-touch-btn:hover{
+    background-color: #000000;
+}
+
+
