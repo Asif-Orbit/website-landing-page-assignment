@@ -37,6 +37,10 @@
     text-align: center;
 }
 
+/* body style */
+body {
+    background-color: #F5F8FF;
+}
 
 
 
@@ -224,4 +228,30 @@ main {
 .user-reviewer-date {
     margin-top: 2px;
     color: #B3B3B3;
+}
+
+/* focus better style */
+.focus-better-container {
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 70px 150px;
+    margin-bottom: 95px;
+}
+
+.focus-better-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.focus-better-sub-title {
+    color: #000000;
+    opacity: 50%;
+    margin: 20px 0;
+}
+
+.focus-better-image {
+    border-radius: 48px;
+    margin-top: 20px;
 }
