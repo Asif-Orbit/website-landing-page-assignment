@@ -281,6 +281,7 @@ main {
 }
 
 .input {
+    width: 100%;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     padding: 20px 200px 20px 30px;
@@ -292,6 +293,7 @@ main {
 }
 
 .get-in-touch-btn {
+    width: 100%;
     padding: 20px 204px;
     background-color: #4E47FF;
     color: #FFFFFF;
